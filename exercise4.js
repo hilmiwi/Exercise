@@ -11,7 +11,7 @@ function triangle(height){
     }
     return result
 }
-console.log(triangle(3))
+console.log(triangle(10))
 
 //exercise 2
 function fizzBuzz(n){
