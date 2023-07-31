@@ -42,6 +42,7 @@ function arrayToString(arr){
 }
 console.log(arrayToString(["Adam","Goerge","Johny","Frank"])) //Adam, Goerge, Johny and Frank
 
+//Split an Array to String
 function splitArr(str){
     const result = []
     let word = ''
