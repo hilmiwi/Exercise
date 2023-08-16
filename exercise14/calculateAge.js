@@ -1,8 +1,8 @@
-function calculateAge(date){
-    const newDate = new Date(date)
-    const today = new Date()
-    console.log( newDate, today)
-    return today-newDate
-}
+function calculateAge(birthday){
+    const now = new Date()
+    const birthDay = new Date(birthday)
+    const calc = Math.floor((now - birthDay) / 1000 / (3600 * 24 * 365))
+    return calc
 
-console.log(calculateAge("1995-11-08"))
+}
+console.log(calculateAge("2000-08-08"))
